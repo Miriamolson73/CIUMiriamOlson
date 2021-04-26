@@ -1,0 +1,35 @@
+.miembro
+{
+	background-color: red;
+}
+.rebelde
+{
+	background-color: blue;
+
+}
+#vader
+{
+	font-size: 50px;
+}
+#luke
+{
+	font-style: italic;
+}
+.soldado-borde
+{
+	
+	border-style:double; 
+}
+.soldado-espacio
+{
+	 letter-spacing:10px;
+}
+.unidadesApoyo
+{
+	text-align: center;
+}
+.nave
+{
+	text-transform: uppercase;
+}
+
