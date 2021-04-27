@@ -1,0 +1,251 @@
+body
+{
+	position: relative;
+	width: 1340px;
+	height: 1024px;
+	font-family: 'Original Surfer', cursive;
+	text-align: center;
+	background: #FFA966;
+}	
+.lineaPrincipal{
+
+width: 1340px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #B37647;
+font-size: 30px;	
+text-align: center;	
+}
+
+
+.parrafoPrincipal{
+	background:#FFFFFF;
+	font-size: 20px;
+	letter-spacing:5px;
+	text-align: center;
+
+	border:2px;border:  solid;
+	border-color: tomato;
+	
+	align-items: center;
+
+
+	
+	margin-top: 50px;
+
+
+}
+
+.boton1{
+	font-family: 'Original Surfer';
+
+	
+	font-size: 30px;
+	color: #3406b3;
+	width: 200px;height: 200px;
+
+	text-align: center;
+	
+    
+    margin-top: 40px;
+
+    margin-right: 100px;
+    margin-left: 5px;
+
+	background: #FF6680;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+.boton2{
+	font-family: 'Original Surfer';
+	color: #3406b3;
+	font-size: 30px;
+	
+	width: 200px;
+	height: 200px;
+	margin-top: 40px;
+    margin-bottom:   80px;
+  	margin-right: 5px;
+  margin-left: 200px;
+  background: #FF6680;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+.parrafoSecundario{
+	margin-top: 20px;
+	background-color:#6bb300;
+	font-size: 35px;
+	letter-spacing:5px;
+	text-align: center;
+	text-decoration-color: black;
+	border:2px;border:  solid;
+	border-color: tomato;
+
+}
+.boton3{
+	font-family: 'Original Surfer';
+    text-decoration-color:  #000000;
+	background: #57B347;
+	font-size: 25px;
+	
+	width: 200px;
+	height: 200px;
+
+	
+
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+ 
+    border: 2px solid #7cff66;
+	box-sizing: border-box;
+	border-radius: 32px;
+}
+.boton4{
+	font-family: 'Original Surfer';
+	text-decoration-color:  #000000;
+	background: #57B347;
+	font-size: 25px;
+	margin-top: 80px;
+	width: 200px;
+	height: 200px;
+
+	
+	
+  	margin-right: 5px;
+    margin-left: 200px;
+	margin-bottom: 40px;
+    border: 2px solid #7cff66;
+	box-sizing: border-box;
+	border-radius: 32px;
+	
+   }
+ .botonSalida{
+	font-family: 'Original Surfer';
+	text-decoration-color:  #000000;
+	background: #57B347;
+	font-size: 30px;
+	margin-top: 0.5px;
+	width: 200px;
+	height: 50px;
+
+	
+	
+  	margin-right: 5px;
+    margin-left: 600px;
+	margin-bottom: 40px;
+    border: 2px solid #7cff66;
+	box-sizing: border-box;
+	border-radius: 32px;
+	
+   }  
+   .imagGeneral
+  {
+  	background:#FFFFFF;
+	
+	border:2px;border:  solid;
+	border-color: black;
+	
+	
+
+   
+
+
+  }  
+  .imagFinal
+  {
+  	
+    width: 460px;
+	height: 360px;
+    
+	margin-top: 200px;
+	margin-bottom: 80px
+    padding-left: 500px;
+
+  } 
+  .imagEmoji
+  {
+
+	width: 80px;
+	height: 80px;
+	    
+	margin-top: 0.5px;
+    margin-left: 10px;
+    padding-left: 500px;
+  	
+  } 
+ 
+  .imagEmojiTodos
+  {
+  	
+
+    margin:20px;
+
+    transform: rotate(40deg);
+    padding-left: 20px;
+     transform: rotate(40deg);
+  } 
+   .imagEmojiSegunda
+  {
+      margin:20px;
+ 
+   
+     transform: rotate(20deg);
+  } 
+  
+  .contenedorImagen{
+  	display: flex;
+  }
+  .contenedor{
+  	display: flex;
+  	width: 500px;
+	height: 40px;
+	color: #fff;
+	
+	font-size: 40px;
+	line-height: 40px;
+
+	position: absolute;
+	top:400;
+	right: 100;
+	bottom: 0;
+	left:0;
+	margin:auto;
+	overflow: hidden;
+	
+  }
+
+.lista{
+	list-style: none;
+	padding-left: 10px;
+	animation: cambiar 7s infinite;
+}
+.listaLetra{
+	margin:0; 
+}
+@keyframes cambiar {
+  	 0%{margin-top: 0px;}
+  	 20%{margin-top: 0px;}
+  	 25%{margin-top: -40px;}
+  	 50%{margin-top: -40px;}
+  	 55%{margin-top: -80px;}
+  	 80%{margin-top: -80px;}
+  	 85%{margin-top: -40px;}
+  	 95%{margin-top: -40px;}
+  	 100%{margin-top: 0px;}
+  }
+.contenedorSegundo {
+    display: flex;
+    position: absolute;
+	top:800;
+	right: 50;
+	bottom: 0;
+	left:0;
+	margin:auto;
+}
+
