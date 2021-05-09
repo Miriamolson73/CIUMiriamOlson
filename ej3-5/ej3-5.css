@@ -100,4 +100,16 @@ input{
 	font-family:"Courier New",monospace;
 	font-size:16px;
 	color:#FFB100;
+} 
+select
+{
+	width:220px;
+	border-color:#FFB100;
+	border-width:1px;
+	margin-left:5px;
+	border-style:solid;
+	background:#F5F5F5;
+	font-family:"Courier New",monospace;
+	font-size:16px;
+	color:#FFB100;
 }
