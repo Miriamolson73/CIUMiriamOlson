@@ -16,9 +16,7 @@ img{
 	margin: 5px;
     transform: rotate(-90deg);
 }
-ul {
 
-}
 .contenedorImagen{
   	display: flex;
   	width: 600px;
@@ -50,6 +48,7 @@ h1 {
 }
 form{
 	/*background-color: black;*/
+	
 	position: absolute;
 	
 	list-style: none;
@@ -82,34 +81,63 @@ p {
 
 }
 label{
-	width: 220px;border-color:#FFB100;
+	width: 220px;border-color:#926b11;
 	border-width:1px;
 	border-style:solid;
 	background:#F5F5F5;
 	font-family:"Courier New",monospace;
 	font-size:16px;
-	color:#FFB100;
+	color:#926b11;
+	
 }
 input{
 	width:220px;
-	border-color:#FFB100;
+	border-color:#926b11;
 	border-width:1px;
 	margin-left:5px;
 	border-style:solid;
 	background:#F5F5F5;
 	font-family:"Courier New",monospace;
 	font-size:16px;
-	color:#FFB100;
+	color:#926b11;
 } 
 select
 {
-	width:220px;
-	border-color:#FFB100;
+	width:100px;
+	border-color:#926b11;
 	border-width:1px;
 	margin-left:5px;
 	border-style:solid;
 	background:#F5F5F5;
 	font-family:"Courier New",monospace;
 	font-size:16px;
-	color:#FFB100;
+	color:#926b11;
 }
+option{
+	width:220px;
+	border-color:#926b11;
+	border-width:1px;
+	margin-left:5px;
+	border-style:solid;
+	background:#F5F5F5;
+	font-family:"Courier New",monospace;
+	font-size:16px;
+	color:#926b11;
+
+}
+.checkbox{
+	display: flex;
+
+}
+textarea{
+	font-family:"Courier New",monospace;
+	font-size:16px;
+	border-color:#926b11;
+	border-width:1px;
+	border-style:solid;
+	color:#926b11;
+
+
+}
+
+

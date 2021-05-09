@@ -14,8 +14,8 @@
 
 	<h1>Bienvenido a <span>"PetBook"</span> </h1>
 	<p>En esta pagina compartimos todos los tip para cuidar a nuestras mascotas </p>
-	<div class="formulario">
-		<form action="" >
+	<div >
+		<form action="https://formspree.io/f/xayaqrlq" id="formulario1" method="POST" >
 			<label for="nombre_Mascota">Nombre :</label><input type="text" id="nombre_Mascota" name="nombre" placeholder="nombre de tu mascota" required><br>
 			<label for="edad_Mascota">Edad :</label><input type="number" id="edad_Mascota" name="edad" placeholder="edad de tu mascota"required><br>
 
@@ -28,14 +28,19 @@
 			<label for="sexo">Sexo Macho :</label><input type="radio" id="sexo" name="genero" value="Macho"><br>
 
 			<label for="sexo">Sexo Hembra :</label><input type="radio" id="sexo" name="genero" value="Hembra"><br>
-			
-			<select name="tipo_de_mascota" id="tipo"><label for="Tipo de mascota:"> Tipo de mascota:</label>
-					<option value="perro"> Perro </option>
-					<option value="gato"> Gato </option>
-					<option value="conejo"> Conejo </option>
-					<option value="canario"> Canario </option>
-			</select><br>
-
+			<div class="checkbox"> 	<label for="Tipo de mascota:"> Tipo de mascota:</label>
+					<select name="tipo_de_mascota" id="tipo">
+						<option value="perro"> Perro </option>
+						<option value="gato"> Gato </option>
+						<option value="conejo"> Conejo </option>
+						<option value="canario"> Canario </option>
+				</select><br>
+			</div>
+			<div class="checkbox">
+				<label for="Bases">Aceptar Bases y Condiciones</label><input type="checkbox" id="bases"  name="bases_y_condiciones" value="acepta"><br>
+			</div>
+			<textarea rows="10"cols="40" placeholder="Contanos como es tu mascota" type="text"
+			></textarea>	
 			<input type="submit">
 		
 			
